@@ -35,7 +35,7 @@ function App() {
 
       <div className="grid">
         {filtered.map((country, i) => (
-          <div className="card" key={i}>
+         <div className="card countryCard" key={i}>
             <img
               src={country.png}
               alt={country.common}
